@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => '3-clause BSD', :file => 'LICENSE' } 
   spec.author       = "https://opencv.org/" 
   spec.platform     = :ios
-  spec.ios.deployment_target = "11.1"
+  spec.ios.deployment_target = "12.4"
   spec.source       = { 
       :git => "https://github.com/eddy-lau/OpenCV-Dynamic-Framework.git", 
       :tag => "#{spec.version.to_s}" 
